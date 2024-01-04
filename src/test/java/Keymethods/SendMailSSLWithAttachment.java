@@ -89,7 +89,7 @@ public void main() throws EmailException{
 			messageBodyPart1.setText("Goods & Service Tax Registration ,Private Limited Company Registration and Trademark Registration");
 
 			// Create another object to add another content
-			MimeBodyPart messageBodyPart2 = new MimeBodyPart();
+			MimeBodyPart messageBodyPart2 = new MimeBodyPart(); 
 			//"C:\\Users\\admin\\git\\Automation-Critical-Flow\\GRCCriticalflow\\Screenshots"
 			// Mention the file which you want to send
 			String filename = "\\\\14.140.167.188\\Vakilsearch\\AutomatonLeadCreation5\\" + Date1 + "\\extentreport.html";
